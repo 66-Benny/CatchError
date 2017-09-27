@@ -8,8 +8,8 @@
 
 ### 错误的捕获方式
 > 及时运行错误的捕获方式
-> - 1. try...catch
-> - 2. window.onerror
+> - 1.try...catch
+> - 2.window.onerror
 
 > 资源加载错误
 > - 1.object.onerror

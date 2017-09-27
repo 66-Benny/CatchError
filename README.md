@@ -49,12 +49,12 @@ window.addEventListener('error', e => console.log('Error事件捕获：', e), tr
 
 **延伸：跨域的 JS 可以捕获到吗？**
 可以捕获到，有以下两种方法：
-> - 1. 在 script 标签增加  crossorign 属性
-> - 2. 设置 JS 资源响应头 Access-Control-Allow-Origin:*
+> - 1.在 script 标签增加  crossorign 属性
+> - 2.设置 JS 资源响应头 Access-Control-Allow-Origin:*
 
 ### 上报错误的基本方式
-> - 1. 采用 Ajax 通信的方式上报
-> - 2. 利用 Image 对象上报
+> - 1.采用 Ajax 通信的方式上报
+> - 2.利用 Image 对象上报
 ```
 (new Image()).src = 'http://www.example.com/getReport.php'
 ```
